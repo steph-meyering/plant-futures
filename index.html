@@ -36,19 +36,19 @@
         <h1>Plant Futures</h1>
         <h2>UC Berkeley | Spring 2021</h2>
         <p></p>
-        <div id="email-collection">
+        <form id="email-collection">
           <!-- <p>stay in touch</p> -->
           <div class="col-6 col-12-xsmall">
             <input
               type="email"
-              name="demo-email"
-              id="demo-email"
+              name="email"
+              id="email-field"
               value=""
               placeholder="Email Address"
             />
           </div>
-          <a href="#" class="button">Sign up</a>
-        </div>
+          <button id="email-submit-button" type="submit" class="button">Sign up</button>
+        </form>
         <p></p>
         <ul class="actions">
           <li>
@@ -146,5 +146,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script src="assets/js/emailcollection.js"></script>
   </body>
 </html>
